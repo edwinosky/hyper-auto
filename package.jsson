@@ -1,0 +1,20 @@
+{
+  "name": "hyperlane-monitor",
+  "version": "1.0.0",
+  "description": "Script para monitorear y restaurar registros de Hyperlane airdrop",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "ethers": "^6.13.5",
+    "got-scraping": "^4.1.1",
+    "playwright": "^1.51.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "user-agents": "^1.1.500"
+  },
+  "author": "",
+  "license": "ISC"
+}
